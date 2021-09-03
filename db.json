@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "name": "Jérémy Dupuis",
+      "username": "jeremydps",
+      "email": "jeremy.dupuis10@gmail.com",
+      "phone": "0782289527",
+      "website": null,
+      "address": {
+        "street": "86, allée Gérard Philipe, appt 122",
+        "suite": "appt 122",
+        "city": "Cuincy",
+        "zipcode": "59553"
+      },
+      "id": 3
+    },
+    {
+      "name": "Jérémy Dupuis",
+      "username": "jeremyDps",
+      "email": "jeremy.dupuis10@gmail.com",
+      "phone": "0782289527",
+      "website": null,
+      "address": {
+        "street": "86, allée Gérard Philipe, appt 122",
+        "suite": "appt 122",
+        "city": "Cuincy",
+        "zipcode": "59553"
+      },
+      "id": 4
+    }
+  ],
+  "posts": [
+    {
+      "user_id": "1",
+      "title": "titre",
+      "body": "contenu",
+      "id": 1
+    }
+  ],
+  "comments": []
+}

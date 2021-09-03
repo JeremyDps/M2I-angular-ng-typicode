@@ -1,0 +1,6 @@
+<div class="article-preview">
+    <h3>{{article.title | titlecase}}</h3>
+    <p>par {{ article.userId}}</p>
+    <p>{{ article.body | slice:0:100 }}</p>
+</div>
+<div class="card-header">{{ article.title }} <button (click)="delete(article)">&times;</button></div>

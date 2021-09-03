@@ -1,0 +1,9 @@
+<h2>Liste des Articles !</h2>
+
+<app-add-article></app-add-article>
+
+
+<div class="flex">
+    <app-article [article]="article" *ngFor="let article of articles" (articleDelete)="getArticles()"></app-article>
+    <!-- <app-article [article]="article" *ngFor="let article of articles" [routerLink]="['/articles',article.id]"></app-article> -->
+</div>

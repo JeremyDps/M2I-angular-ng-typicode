@@ -1,0 +1,24 @@
+<form [formGroup]="newPost" (ngSubmit)="addPost()">
+    <div>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Id de l'utilisateur</mat-label>
+            <input matInput formControlName="user_id">
+        </mat-form-field>
+    </div>
+
+    <div>
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Titre</mat-label>
+          <input matInput formControlName="title">
+        </mat-form-field>
+    </div>
+
+    <div>
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Contenu</mat-label>
+          <textarea matInput formControlName="body"></textarea>
+        </mat-form-field>
+    </div>
+
+    <button type="submit">Créer</button>
+</form>

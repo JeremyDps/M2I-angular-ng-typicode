@@ -1,0 +1,12 @@
+<div *ngIf="article">
+    <h2>{{ article.title | titlecase }}</h2>
+    
+    <p>{{article.body}}</p>
+    
+    <!-- commentaires -->
+    <div class="comments" *ngIf="comments">
+        <app-comment [comment]="comment" *ngFor="let comment of comments"></app-comment>
+    </div>
+    <app-spinner *ngIf="!comments"></app-spinner>
+</div>
+<app-spinner *ngIf="!article"></app-spinner>
